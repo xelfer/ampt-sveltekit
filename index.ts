@@ -1,0 +1,1 @@
+import '@ampt/sveltekit/server';

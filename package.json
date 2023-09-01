@@ -1,0 +1,38 @@
+{
+  "name": "ampt-sveltekit-starter-template",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "ampt:dev": "vite dev",
+    "ampt:build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@fontsource/fira-mono": "^4.5.10",
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/adapter-node": "^1.3.1",
+    "@sveltejs/kit": "^1.20.4",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "svelte": "^4.0.5",
+    "svelte-check": "^3.4.3",
+    "tslib": "^2.4.1",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.2"
+  },
+  "ampt": {
+    "org": "",
+    "app": "sveltekit"
+  },
+  "type": "module",
+  "dependencies": {
+    "@ampt/sdk": "^0.0.1-beta.58",
+    "@ampt/sveltekit": "^0.0.1-beta.4",
+    "@sveltejs/kit": "^1.5.0"
+  },
+  "files": [
+    "*"
+  ]
+}
